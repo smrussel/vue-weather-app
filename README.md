@@ -1,14 +1,7 @@
+
 # weather-app
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+vue application develop using composition api and openweather api
 
 ## Project Setup
 
@@ -27,4 +20,18 @@ npm run dev
 ```sh
 npm run build
 ```
-# vue-weather-app
+
+### Access the site using this url locally
+
+http://localhost:5173/
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env.sample file and remove .sample from the filename
+
+`VITE_OPENWEATHER_API_KEY`
+
+
+## Screenshots
+
+![App Screenshot](./preview.png)
+
